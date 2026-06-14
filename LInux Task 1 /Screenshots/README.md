@@ -1,9 +1,7 @@
 # 🐧 Linux Task 01 — Linux Environment Setup & Essential Commands
 
-**Internship Task | Submitted by:** `[Your Name]`
-**GitHub Repo:** `[Your GitHub Link]`
-**VM Used:** Ubuntu / Kali / Parrot (mention which one)
-
+**Internship Task | Submitted by:** Rithik Raj
+**VM Used:**  Kali 
 ---
 
 ## 📁 Folder Structure
@@ -22,19 +20,11 @@ Linux_Task_01_YourName/
 │   └── screenshots/
 │
 ├── Part_C_Directory_Management/
-│   ├── commands_used.txt
-│   └── screenshots/
 │
 ├── Part_D_File_Management/
-│   ├── commands_used.txt
-│   └── screenshots/
-│
+│ 
 ├── Part_E_System_Info/
-│   ├── system_info_output.txt
-│   └── screenshots/
-│
 └── Part_F_Research/
-    └── research_answers.md
 ```
 
 ---
@@ -177,17 +167,3 @@ A Linux Distribution (or "distro") is a version of Linux packaged with different
 Ethical hackers prefer Linux because it comes pre-installed with hundreds of security and hacking tools (especially Kali Linux). It allows deep system-level access, runs efficiently even on older hardware, supports scripting and automation, and mirrors real-world server environments they test against.
 
 ---
-
-## 🔗 GitHub Repository
-
-> All files, screenshots, and outputs are uploaded here:
-
-**Repo Link:** `[Paste your GitHub link here]`
-
----
-
-## 📝 Notes
-
-- All commands were run on a Linux VM using the terminal.
-- Screenshots were taken after each command/task.
-- This is Task 01 of the internship program. Previous tasks are in separate folders in the same repository.
