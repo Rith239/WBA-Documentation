@@ -1,8 +1,7 @@
 # Linux Task 02: Users, Groups & File Permissions
 
-**Name:** [Your Name]  
-**Date:** [Submission Date]  
-**Repository:** [Your GitHub Repo Link]
+**Name:** Rithik Raj 
+
 
 ---
 
@@ -22,14 +21,9 @@ id
 cat /etc/passwd
 ```
 
-### Screenshot
-> *[Insert screenshot of whoami, id, and cat /etc/passwd outputs here]*
-
-### Answers
-
 | Question | Answer |
 |----------|--------|
-| Current Username | [output of whoami] |
+| Current Username | [lostlog] |
 | What is UID? | UID (User ID) is a unique number the Linux system assigns to each user. Root always has UID 0. It identifies who owns a process or file. |
 | What is GID? | GID (Group ID) is the primary group number assigned to a user. It determines which group's permissions apply by default. |
 | What does /etc/passwd contain? | It stores one entry per user containing: username, password placeholder (x), UID, GID, home directory, and default shell. |
@@ -61,11 +55,6 @@ id student1
 id student2
 ```
 
-### Screenshot
-> *[Insert screenshot of id student1 and id student2 outputs here]*
-
----
-
 ## Part C: File Ownership
 
 ### Commands Used
@@ -90,15 +79,9 @@ ls -l
 
 | File | Original Owner | New Owner | Command Used |
 |------|---------------|-----------|--------------|
-| report.txt | [your username] | student1 | `sudo chown student1 report.txt` |
-| notes.txt | [your username] | (unchanged) | — |
-| credentials.txt | [your username] | (unchanged) | — |
-
-### Screenshots
-> *[Insert ls -l output BEFORE chown here]*  
-> *[Insert ls -l output AFTER chown here]*
-
----
+| report.txt | [lostlog] | student1 | `sudo chown student1 report.txt` |
+| notes.txt | [lostlog] | (unchanged) | — |
+| credentials.txt | [lostlog] | (unchanged) | — |
 
 ## Part D: File Permissions
 
@@ -197,17 +180,6 @@ Linux_Task_02_YourName/
 │   ├── partD_readonly.png
 │   ├── partD_readwrite.png
 │   └── partD_fullaccess.png
-└── commands_used.txt
+
 ```
 
----
-
-## How to Upload to GitHub (from VM using Firefox)
-
-1. Go to [github.com](https://github.com) and log in
-2. Open your internship repository
-3. Navigate into your `Linux_Task_02_YourName` folder (or create it)
-4. Click **Add file → Upload files**
-5. Drag and drop your screenshots and README.md
-6. Add commit message: `Add Linux Task 02 - Users, Groups & File Permissions`
-7. Click **Commit changes**
