@@ -1,6 +1,6 @@
 # Linux Task 03 — Process Management, System Monitoring & Shell Scripting
 
-**Name:** Your Name
+**Name:** Rithik Raj
 **Date:** 14-06-2025
 **Internship Task:** Task 03
 
@@ -31,8 +31,6 @@ Linux_Task_03_YourName/
 │   ├── partD_network_status.png
 │   ├── partE_script_output.png
 │   └── partF_security_commands.png
-├── system_report.sh
-├── soc_activity.txt
 └── README.md
 ```
 
@@ -56,13 +54,6 @@ A process is a running instance of a program. Every command, application, or ser
 **What is a PID?**
 A PID (Process ID) is a unique number assigned by the operating system to every running process. It is used to identify and manage processes.
 
-**Which process is consuming the most CPU?**
-> *(Fill in from your `top`/`htop` screenshot — e.g., "firefox — PID 1234, 45% CPU")*
-
-**Which process is consuming the most Memory?**
-> *(Fill in from your `top`/`htop` screenshot — e.g., "gnome-shell — PID 890, 12% MEM")*
-
----
 
 ## Part B — Process Management
 
@@ -234,7 +225,3 @@ Only after documenting all of this would I use `kill <PID>` (graceful) or `kill 
 - Security analysts use `ss`, `who`, `w`, and `last` as first-response tools to detect anomalies
 
 ---
-
-## GitHub Repository
-
-[Add your GitHub repo link here]
