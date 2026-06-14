@@ -1,9 +1,4 @@
-# 🌐 Network_Task_02_YourName
-
-> **Internship Networking Task 02** — Network Devices & IP Addressing  
-> Replace `YourName` in the folder name with your actual name before submission.
-
----
+# 🌐 Network_Task_02_Rithik Raj
 
 ## 📋 Table of Contents
 
@@ -22,27 +17,6 @@
 ## 📌 Overview
 
 This task covers the fundamentals of networking including common network devices, IP address classification (Public vs Private), practical command-line tools, and understanding how data flows across a network when a website is accessed.
-
----
-
-## 📁 Folder Structure
-
-```
-Network_Task_02_YourName/
-│
-├── README.md                  # This file
-├── answers.md                 # Written answers for all parts
-│
-├── screenshots/
-│   ├── ipconfig_all.png       # Output of ipconfig /all (or ip addr)
-│   ├── nslookup_google.png    # Output of nslookup google.com
-│   └── ping_google.png        # Output of ping google.com
-│
-└── network_diagram/
-    └── communication_flow.png # Diagram for Part D
-```
-
----
 
 ## Part A – Network Devices
 
@@ -77,9 +51,9 @@ Researched and explained the following devices in `answers.md`:
 Commands run on personal device to retrieve network information.  
 *(See screenshots folder for command outputs)*
 
-- **IPv4 Address:** `[your device IP]`
-- **Default Gateway:** `[your router IP]`
-- **DNS Server:** `[your DNS IP]`
+- **IPv4 Address:** 
+- **Default Gateway:** 
+- **DNS Server:**
 - **IP Range:** Private (192.168.x.x)
 - **Router Role:** Acts as the default gateway, performs NAT, and manages DHCP for the local network.
 - **If DNS stopped working:** Domain name resolution would fail — websites would be unreachable by name even if the internet connection is active.
@@ -163,4 +137,3 @@ ping google.com
 
 ---
 
-*Part of an ongoing internship program. Each task is maintained in a separate folder within the same repository.*
