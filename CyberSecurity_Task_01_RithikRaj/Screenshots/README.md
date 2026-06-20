@@ -5,7 +5,7 @@
 Security assessment performed on my personal Linux VM.
 
 | Check | Command Used | 
-|---|---|---|
+|---|---|
 | Operating System | `lsb_release -a`
 | OS Version | `cat /etc/os-release`
 | Kernel Version | `uname -r`
