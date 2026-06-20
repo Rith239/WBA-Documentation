@@ -15,16 +15,3 @@ The purpose of this task was to understand the core principles of cybersecurity 
 | `05_Security_Recommendations.md` | 10 security recommendations with justification for each |
 | `06_Consultant_Report.md` | One-page professional report: Top 5 Risks, Top 5 Recommendations, Expected Benefits |
 
-## Key Learnings
-
-- The CIA Triad (Confidentiality, Integrity, Availability) forms the basis of every security control and policy.
-- Real-world attacks like WannaCry typically exploit unpatched systems and highlight the importance of timely updates and backups.
-- Risk assessment requires evaluating both the **threat** to an asset and the **impact** if that threat materializes, to prioritize security efforts.
-- Most breaches originate from a small set of recurring threats: insider misuse, malware, phishing, weak passwords, and unpatched systems — most of which are preventable with basic security hygiene.
-- Practical security recommendations (MFA, patching, backups, training) are low-cost, high-impact measures any organization can implement.
-
-## Submission Notes
-
-This task is part of the ongoing internship and is maintained in the same repository as previous tasks (Task 01: Linux Fundamentals, Task 02: Networking, Task 03: Linux Process & System Monitoring), each in its own folder.
-
-This is a learning-focused task, not a marks-based submission.
