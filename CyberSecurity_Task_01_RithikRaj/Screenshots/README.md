@@ -1,28 +1,19 @@
 # Cyber Security Task 01: Personal Security Audit & Cyber Awareness Assessment
 
-## Objective
-The purpose of this task is to assess my own digital security practices and identify potential risks. Cybersecurity starts with securing yourself before securing systems and networks.
-
----
-
 ## Part A: Device Security Assessment
 
 Security assessment performed on my personal Linux VM.
 
 | Check | Command Used | Result |
 |---|---|---|
-| Operating System | `lsb_release -a` | `[PASTE OUTPUT HERE]` |
-| OS Version | `cat /etc/os-release` | `[PASTE OUTPUT HERE]` |
-| Kernel Version | `uname -r` | `[PASTE OUTPUT HERE]` |
-| Is the system updated? | `sudo apt update && apt list --upgradable` | `[PASTE OUTPUT HERE — e.g. "X packages can be upgraded" or "System is up to date"]` |
-| Antivirus Installed? (Yes/No) | `clamscan --version` (or note if not installed) | `[YES/NO + details]` |
-| Firewall Enabled? (Yes/No) | `sudo ufw status verbose` | `[YES/NO + details]` |
+| Operating System | `lsb_release -a`
+| OS Version | `cat /etc/os-release`
+| Kernel Version | `uname -r`
+| Is the system updated? | `sudo apt update && apt list --upgradable` |
+| Antivirus Installed? (Yes/No) | `clamscan --version`
+| Firewall Enabled? (Yes/No) | `sudo ufw status verbose`
 
-📸 *Screenshots of each terminal command output are included in this folder as `screenshot_partA_*.png`*
-
-**Note:** Linux systems typically rely on built-in permission structures, repository-based updates, and tools like `ufw` (firewall) rather than traditional consumer antivirus software. This is a normal and expected difference from Windows/macOS security models.
-
----
+📸 *Screenshots of each terminal command output are included in screenshots folder.
 
 ## Part B: Password Security Review
 
@@ -55,13 +46,9 @@ Reviewed the following 3 accounts. **No actual passwords are shared below.**
 
 | Account | MFA Enabled? | Strong Password? | Recovery Email Configured? |
 |---|---|---|---|
-| Google | `[YES/NO]` | `[YES/NO]` | `[YES/NO]` |
-| GitHub | `[YES/NO]` | `[YES/NO]` | `[YES/NO]` |
-| LinkedIn | `[YES/NO]` | `[YES/NO]` | `[YES/NO]` |
-
-📸 *Screenshots of each account's security settings page (sensitive info cropped/blurred) are included as `screenshot_partC_*.png`*
-
----
+| Google | `[YES]` | `[YES]` | `[YES]` |
+| GitHub | `[YES]` | `[YES]` | `[YES]` |
+| LinkedIn | `[YES]` | `[YES]` | `[YES]` |
 
 ## Part D: Cyber Threat Research
 
@@ -94,26 +81,21 @@ Reviewed the following 3 accounts. **No actual passwords are shared below.**
 
 ## Part E: Cyber Security Awareness Poster
 
-**Topic chosen:** `[FILL IN — e.g. Phishing Awareness / MFA / Strong Passwords]`
+**Topic chosen:** Social Engin
 
-Poster file included in this folder as: `awareness_poster.png`
-
-`[Brief 1-2 line description of what your poster covers]`
-
----
+Poster file included in this folder as: Social Eng
 
 ## Part F: Security Reflection
 
-`[FILL IN — write 200–300 words covering:]`
 - *What cybersecurity risks did you identify in your own digital habits?*
 - *What security improvements will you implement immediately?*
 - *Why is cybersecurity important in today's world?*
 
 **Draft starting point (edit/expand to reach 200–300 words and make it personal):**
 
-> Going through this audit, I realized that some of my digital habits had gaps I hadn't paid much attention to before — such as `[mention something specific you found, e.g. an account without MFA, an outdated system, a reused password]`. This task helped me see that even small oversights, like skipping a system update or reusing a password across platforms, can create real vulnerabilities that attackers actively look for.
+> Going through this audit, I realized that some of my digital habits had gaps I hadn't paid much attention to before — such as  an account without MFA, an outdated system, a reused password. This task helped me see that even small oversights, like skipping a system update or reusing a password across platforms, can create real vulnerabilities that attackers actively look for.
 >
-> Going forward, I plan to immediately `[mention 1-2 concrete actions, e.g. "enable MFA on all my major accounts" / "set up a password manager" / "review my firewall settings regularly"]`. These are simple changes that significantly reduce risk without requiring advanced technical knowledge.
+> Going forward, I plan to immediately enable MFA on all my major accounts" / "set up a password manager" / "review my firewall settings regularly". These are simple changes that significantly reduce risk without requiring advanced technical knowledge.
 >
 > Cybersecurity matters today more than ever because so much of our personal, financial, and professional lives exist online. A single compromised account can lead to identity theft, financial loss, or reputational damage. As threats like phishing, ransomware, and social engineering become more sophisticated, individual awareness is often the first and most important line of defense — no firewall or antivirus can fully protect someone who unknowingly hands over their credentials. This task reinforced that cybersecurity isn't just a technical responsibility; it's a personal habit everyone needs to build.
 
@@ -127,21 +109,5 @@ CyberSecurity_Task_01_YourName/
 ├── screenshot_partA_os_info.png
 ├── screenshot_partA_updates.png
 ├── screenshot_partA_firewall.png
-├── screenshot_partC_google.png
-├── screenshot_partC_github.png
-├── screenshot_partC_linkedin.png
 └── awareness_poster.png
 ```
-
----
-
-## Topics Studied
-- CIA Triad (Confidentiality, Integrity, Availability)
-- Types of Cyber Threats
-- Malware Basics
-- Phishing Attacks
-- Social Engineering
-- Authentication vs Authorization
-- Password Security
-- Multi-Factor Authentication (MFA)
-- Cyber Hygiene Best Practices
